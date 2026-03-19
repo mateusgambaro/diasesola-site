@@ -1,0 +1,13 @@
+{
+  "name": "diasesola-site",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx decap-server & eleventy --serve",
+    "cms": "npx decap-server",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "decap-server": "^3.5.2"
+  }
+}

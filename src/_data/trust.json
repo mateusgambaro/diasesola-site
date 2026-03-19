@@ -1,0 +1,28 @@
+{
+  "label": "04 / Quem Somos",
+  "title": "Seu direito em",
+  "title_accent": "boas maos.",
+  "counters": [
+    { "number": 500, "suffix": "+", "label": "Clientes Atendidos" },
+    { "number": 98, "suffix": "%", "label": "Taxa de Sucesso" },
+    { "number": 2, "suffix": "", "label": "Unidades" },
+    { "number": 10, "suffix": "+", "label": "Anos de Experiencia" }
+  ],
+  "features": [
+    {
+      "icon": "fa-solid fa-shield-halved",
+      "title": "Seguranca Juridica",
+      "description": "Atuacao fundamentada na legislacao vigente e jurisprudencia atualizada."
+    },
+    {
+      "icon": "fa-solid fa-handshake",
+      "title": "Atendimento Humanizado",
+      "description": "Cada caso e unico. Ouvimos, entendemos e lutamos por voce."
+    },
+    {
+      "icon": "fa-solid fa-scale-balanced",
+      "title": "Transparencia Total",
+      "description": "Acompanhe cada etapa do seu processo com clareza e confianca."
+    }
+  ]
+}

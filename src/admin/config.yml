@@ -1,0 +1,187 @@
+# local_backend: true  # Descomentar para desenvolvimento local
+
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "src/assets"
+public_folder: "assets"
+
+locale: "pt"
+
+collections:
+  - name: "settings"
+    label: "Configuracoes"
+    editor:
+      preview: false
+    files:
+
+      # ─── Site Global ───
+      - name: "site"
+        label: "Dados Gerais"
+        file: "src/_data/site.json"
+        fields:
+          - { label: "Nome do Escritorio", name: "name", widget: "string" }
+          - { label: "Subtitulo", name: "tagline", widget: "string" }
+          - { label: "Descricao", name: "description", widget: "text" }
+          - { label: "Logo Branco", name: "logo_white", widget: "image" }
+          - { label: "Logo Navegacao", name: "logo_nav", widget: "image" }
+          - { label: "Telefone 1", name: "phone1", widget: "string" }
+          - { label: "Telefone 2", name: "phone2", widget: "string" }
+          - { label: "Telefone (link)", name: "phone_link", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Numero WhatsApp", name: "whatsapp_number", widget: "string" }
+          - { label: "Mensagem Padrao WhatsApp", name: "whatsapp_default_message", widget: "string" }
+          - { label: "Facebook URL", name: "facebook", widget: "string" }
+          - { label: "Instagram URL", name: "instagram", widget: "string" }
+          - { label: "Copyright", name: "copyright", widget: "string" }
+          - { label: "OAB", name: "oab", widget: "string" }
+          - { label: "Google Maps Embed URL", name: "map_embed", widget: "string" }
+          - label: "Enderecos"
+            name: "addresses"
+            widget: "list"
+            fields:
+              - { label: "Nome da Unidade", name: "name", widget: "string" }
+              - { label: "Endereco Completo", name: "street", widget: "string" }
+
+      # ─── Hero ───
+      - name: "hero"
+        label: "Hero (Inicio)"
+        file: "src/_data/hero.json"
+        fields:
+          - { label: "Texto Superior", name: "eyebrow", widget: "string" }
+          - { label: "Titulo Linha 1", name: "title_line1", widget: "string" }
+          - { label: "Titulo Linha 2 (italico)", name: "title_line2", widget: "string" }
+          - { label: "Descricao", name: "description", widget: "text" }
+          - { label: "Botao Principal (texto)", name: "cta_text", widget: "string" }
+          - { label: "Link Secundario (texto)", name: "cta_secondary_text", widget: "string" }
+          - { label: "Foto Principal", name: "image", widget: "image" }
+          - { label: "Estatistica 1 - Numero", name: "stat1_number", widget: "string" }
+          - { label: "Estatistica 1 - Label", name: "stat1_label", widget: "string" }
+          - { label: "Estatistica 2 - Numero", name: "stat2_number", widget: "string" }
+          - { label: "Estatistica 2 - Label", name: "stat2_label", widget: "string" }
+
+      # ─── Marquee ───
+      - name: "marquee"
+        label: "Marquee (Faixa Animada)"
+        file: "src/_data/marquee.json"
+        fields:
+          - label: "Itens"
+            name: "items"
+            widget: "list"
+            field:
+              { label: "Texto", name: "item", widget: "string" }
+
+      # ─── Trust / Sobre ───
+      - name: "trust"
+        label: "Sobre / Confianca"
+        file: "src/_data/trust.json"
+        fields:
+          - { label: "Label da Secao", name: "label", widget: "string" }
+          - { label: "Titulo", name: "title", widget: "string" }
+          - { label: "Titulo (destaque)", name: "title_accent", widget: "string" }
+          - label: "Contadores"
+            name: "counters"
+            widget: "list"
+            fields:
+              - { label: "Numero", name: "number", widget: "number" }
+              - { label: "Sufixo (+, %, etc)", name: "suffix", widget: "string", required: false }
+              - { label: "Label", name: "label", widget: "string" }
+          - label: "Diferenciais"
+            name: "features"
+            widget: "list"
+            fields:
+              - { label: "Icone (classe Font Awesome)", name: "icon", widget: "string" }
+              - { label: "Titulo", name: "title", widget: "string" }
+              - { label: "Descricao", name: "description", widget: "text" }
+
+      # ─── Contato ───
+      - name: "contact"
+        label: "Contato"
+        file: "src/_data/contact.json"
+        fields:
+          - { label: "Label da Secao", name: "label", widget: "string" }
+          - { label: "Titulo", name: "title", widget: "string" }
+          - { label: "Titulo (destaque)", name: "title_accent", widget: "string" }
+          - { label: "Subtitulo", name: "subtitle", widget: "string" }
+          - { label: "Placeholder - Nome", name: "form_name_placeholder", widget: "string" }
+          - { label: "Placeholder - Telefone", name: "form_phone_placeholder", widget: "string" }
+          - { label: "Placeholder - Email", name: "form_email_placeholder", widget: "string" }
+          - { label: "Placeholder - Assunto", name: "form_subject_placeholder", widget: "string" }
+          - { label: "Placeholder - Mensagem", name: "form_message_placeholder", widget: "string" }
+          - { label: "Texto do Botao Enviar", name: "form_submit_text", widget: "string" }
+
+  # ─── Servicos (collection) ───
+  - name: "services"
+    label: "Servicos"
+    editor:
+      preview: false
+    files:
+      - name: "services_data"
+        label: "Lista de Servicos"
+        file: "src/_data/services.json"
+        fields:
+          - { label: "Label da Secao", name: "label", widget: "string" }
+          - { label: "Titulo", name: "title", widget: "string" }
+          - { label: "Titulo (destaque)", name: "title_accent", widget: "string" }
+          - { label: "Subtitulo Direita", name: "subtitle", widget: "string" }
+          - label: "Servicos"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Titulo", name: "title", widget: "string" }
+              - { label: "Icone (SVG)", name: "icon", widget: "image" }
+              - { label: "Descricao", name: "description", widget: "text" }
+              - { label: "Texto do Botao", name: "cta_text", widget: "string" }
+              - { label: "Mensagem WhatsApp", name: "whatsapp_message", widget: "string" }
+
+  # ─── Equipe ───
+  - name: "team"
+    label: "Equipe"
+    editor:
+      preview: false
+    files:
+      - name: "team_data"
+        label: "Membros da Equipe"
+        file: "src/_data/team.json"
+        fields:
+          - { label: "Label da Secao", name: "label", widget: "string" }
+          - { label: "Titulo", name: "title", widget: "string" }
+          - { label: "Titulo (destaque)", name: "title_accent", widget: "string" }
+          - { label: "Subtitulo Direita", name: "subtitle", widget: "string" }
+          - label: "Membros"
+            name: "members"
+            widget: "list"
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+              - { label: "Cargo", name: "role", widget: "string" }
+              - { label: "Foto", name: "photo", widget: "image" }
+              - { label: "Biografia", name: "bio", widget: "text" }
+              - { label: "LinkedIn URL", name: "linkedin", widget: "string" }
+
+  # ─── Escritorios ───
+  - name: "offices"
+    label: "Escritorios"
+    editor:
+      preview: false
+    files:
+      - name: "offices_data"
+        label: "Unidades e Fotos"
+        file: "src/_data/offices.json"
+        fields:
+          - { label: "Label da Secao", name: "label", widget: "string" }
+          - { label: "Titulo", name: "title", widget: "string" }
+          - { label: "Titulo (destaque)", name: "title_accent", widget: "string" }
+          - { label: "Subtitulo Direita", name: "subtitle", widget: "string" }
+          - label: "Unidades"
+            name: "units"
+            widget: "list"
+            fields:
+              - { label: "Nome da Unidade", name: "name", widget: "string" }
+              - { label: "Endereco Resumido", name: "address", widget: "string" }
+              - label: "Fotos"
+                name: "images"
+                widget: "list"
+                fields:
+                  - { label: "Imagem", name: "src", widget: "image" }
+                  - { label: "Descricao (alt)", name: "alt", widget: "string" }

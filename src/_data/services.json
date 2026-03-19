@@ -1,0 +1,78 @@
+{
+  "label": "01 / Servicos",
+  "title": "Como podemos te",
+  "title_accent": "ajudar?",
+  "subtitle": "10 areas de atuacao",
+  "items": [
+    {
+      "title": "Planejamento Previdenciario",
+      "icon": "assets/contract_16f3746c5493.svg",
+      "description": "Estudo detalhado do historico previdenciario, com analise de pendencias no Cadastro Nacional de Informacoes Sociais (CNIS), hipoteses de aposentadoria e simulacoes de contribuicoes futuras. O Planejamento Previdenciario permite identificar o melhor momento para requerer a aposentadoria e qual estrategia seguir para receber o beneficio de maior valor.",
+      "cta_text": "Realizar planejamento",
+      "whatsapp_message": "Ola! Gostaria de agendar um horario para saber mais informacoes sobre o Planejamento Previdenciario."
+    },
+    {
+      "title": "Aposentadorias e Beneficios Previdenciarios",
+      "icon": "assets/hand-shake_132d1ff4fbe9.svg",
+      "description": "Analise, organizacao e solicitacao de documentos, peticao administrativa, requerimento e acompanhamento individualizado do processo, junto ao sistema exclusivo para advogados (Meu INSS Digital). Tambem e indicado para quem ja requereu o pedido junto ao INSS, mas deseja contar com uma assistencia juridica especializada.",
+      "cta_text": "Quero me aposentar",
+      "whatsapp_message": "Ola! Preciso de ajuda sobre aposentadoria ou beneficios previdenciarios."
+    },
+    {
+      "title": "Beneficios por Incapacidade",
+      "icon": "assets/auction_b4c797113bfa.svg",
+      "description": "Beneficio para quem se encontra incapacitado de forma temporaria ou permanente para o trabalho. Analise de documentacao medica aliada ao requerimento do beneficio e agendamento de pericias.",
+      "cta_text": "Saiba mais",
+      "whatsapp_message": "Ola! Gostaria de saber se tenho direito ao beneficio por incapacidade."
+    },
+    {
+      "title": "Revisao de Beneficios",
+      "icon": "assets/scales-of-justice_27e1abd8eaae.svg",
+      "description": "Analise do seu processo administrativo (INSS) ou judicial para identificar a possibilidade de revisao do beneficio para aumentar a renda mensal.",
+      "cta_text": "Realizar revisao",
+      "whatsapp_message": "Ola! Gostaria de realizar uma revisao de beneficio."
+    },
+    {
+      "title": "Revisao da Vida Toda",
+      "icon": "assets/growth_59da9df278a5.svg",
+      "description": "A Revisao da Vida Toda e devida para aqueles que tiveram contribuicoes anteriores a julho de 1994 e que se aposentaram antes da reforma da previdencia. Realiza-se um estudo para identificar se a aplicacao aumentara a renda mensal do seu beneficio previdenciario.",
+      "cta_text": "Saiba mais",
+      "whatsapp_message": "Ola! Gostaria de saber se tenho direito de realizar a revisao da vida toda."
+    },
+    {
+      "title": "Beneficio Assistencial (BPC/LOAS)",
+      "icon": "assets/portfolio_c1518c838063.svg",
+      "description": "Beneficio de um salario-minimo devido a pessoa com deficiencia e ao idoso com 65 anos ou mais, que comprovem nao possuir condicoes de prover o proprio sustento. Requerimento, analise e agendamento de pericias medicas e avaliacoes sociais pelo sistema exclusivo do advogado (Meu INSS Digital).",
+      "cta_text": "Saiba mais",
+      "whatsapp_message": "Ola! Gostaria de saber se tenho direito ao BPC/LOAS."
+    },
+    {
+      "title": "Planejamento Previdenciario do Servidor Publico",
+      "icon": "assets/publicserver_612dae488507.svg",
+      "description": "Estudo detalhado do tempo de servico do servidor para analisar as hipoteses de aposentadoria, aproveitando ou nao o tempo de contribuicao do Regime Geral caso possua, e qual estrategia seguir para receber a aposentadoria de maior valor.",
+      "cta_text": "Realizar planejamento",
+      "whatsapp_message": "Ola! Gostaria de agendar um horario para saber mais informacoes sobre Planejamento Previdenciario do Servidor Publico."
+    },
+    {
+      "title": "Processo Judicial",
+      "icon": "assets/processauction_66190ee531ac.svg",
+      "description": "Acao para buscar o direito que foi indeferido na via administrativa. Acompanhamento individualizado do processo do inicio ao fim da acao.",
+      "cta_text": "Iniciar acao judicial",
+      "whatsapp_message": "Ola! Gostaria de iniciar um Processo judicial."
+    },
+    {
+      "title": "Revisao de Emprestimo Consignado",
+      "icon": "assets/loan_c062bc77e9ce.svg",
+      "description": "Acao que busca reaver valores de emprestimos consignados contratados indevidamente.",
+      "cta_text": "Realizar revisao",
+      "whatsapp_message": "Ola! Gostaria de fazer uma Revisao de Emprestimo Consignado."
+    },
+    {
+      "title": "Isencao de Imposto de Renda",
+      "icon": "assets/lion_933ac63f6da7.svg",
+      "description": "Em alguns casos especificos e possivel solicitar a isencao do imposto de renda no beneficio ou aposentadoria. Em caso de negativa, e possivel ingressar com acao para buscar a isencao com o ressarcimento dos pagamentos desde o inicio da doenca.",
+      "cta_text": "Saiba mais",
+      "whatsapp_message": "Ola! Gostaria de saber se tenho direito a isencao do imposto de renda."
+    }
+  ]
+}

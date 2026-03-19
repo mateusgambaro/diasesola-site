@@ -1,0 +1,22 @@
+{
+  "label": "02 / Nossa Equipe",
+  "title": "Quem esta ao",
+  "title_accent": "seu lado.",
+  "subtitle": "Expertise & Confianca",
+  "members": [
+    {
+      "name": "Gabriella Dias",
+      "role": "Advogada · Socia-Proprietaria",
+      "photo": "assets/gabriella_1_94df6b39c9cb.webp",
+      "bio": "Graduada e pos-graduada em Direito Processual Civil pela Faculdade de Direito de Sorocaba (FADI). Especialista em Processo Administrativo Previdenciario. Possui amplo conhecimento em pecas previdenciarias, beneficios por incapacidade, assistenciais e aposentadorias rurais.",
+      "linkedin": "https://www.linkedin.com/in/gabriella-dias-6a2940181"
+    },
+    {
+      "name": "Larissa Sola",
+      "role": "Advogada · Socia-Proprietaria",
+      "photo": "assets/larissa_1_0d563d45169b.webp",
+      "bio": "Graduada pela FADI, pos-graduada em Direito Processual Civil. Especialista em Advocacia Previdenciaria, Calculos e Planejamento Previdenciario. Vasto conhecimento em Aposentadorias no Regime Geral (setor privado) e Regime Proprio (servidores publicos estatutarios).",
+      "linkedin": "https://www.linkedin.com/in/larissa-sola-97581b176/"
+    }
+  ]
+}

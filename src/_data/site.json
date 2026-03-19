@@ -1,0 +1,28 @@
+{
+  "name": "Dias & Sola",
+  "tagline": "Advogadas Associadas",
+  "description": "Atuacao especializada em Direito Previdenciario, com atendimento em Sorocaba e Tapirai.",
+  "logo_white": "assets/icone_white_70938d229e7e.png",
+  "logo_nav": "assets/icone_logo_white_b41fdbf3d551.png",
+  "phone1": "(15) 99775-5599",
+  "phone2": "(15) 3326-8128",
+  "phone_link": "+5515997755599",
+  "email": "dias.sola.adv@gmail.com",
+  "whatsapp_number": "+5515997755599",
+  "whatsapp_default_message": "Ola! Estou precisando de ajuda.",
+  "facebook": "https://www.facebook.com/diasesolaadv",
+  "instagram": "https://www.instagram.com/diasesola.adv",
+  "copyright": "2026 Dias & Sola Advogadas Associadas.",
+  "oab": "OAB/SP",
+  "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.0374136228966!2d-47.43262182376192!3d-23.495161859165158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf6040811d745d%3A0x66921dbb598ee480!2sR.%20Belmira%20Loureiro%20de%20Almeida%2C%20526%20-%2032%20-%20Jardim%20Piratininga%2C%20Sorocaba%20-%20SP%2C%2018016-321!5e0!3m2!1sen!2sbr!4v1691544216213!5m2!1sen!2sbr",
+  "addresses": [
+    {
+      "name": "Unidade Sorocaba",
+      "street": "R. Belmira Loureiro de Almeida, 525 - Sala 32, Jd. Piratininga, Sorocaba - SP"
+    },
+    {
+      "name": "Unidade Tapirai",
+      "street": "Av. Raul Leite Magalhaes, 430, Centro, Tapirai - SP"
+    }
+  ]
+}
